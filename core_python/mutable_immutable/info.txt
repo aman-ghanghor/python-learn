@@ -1,0 +1,11 @@
+------------ Mutable and Immutable Object -------------
+
+Mutable Object = Mutable objects are those object whose value or content can be changed as and 
+                 when required
+                 Ex - List, Set, Dictionaries
+
+Immutable Object =  Immutable objects are those object whose value or content can not be changed.
+                  Ex- Number, String, Tuple
+
+
+        

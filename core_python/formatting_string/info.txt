@@ -1,0 +1,77 @@
+------------- format() Method --------------
+
+This method is used to format strings. The string on which this method is called can contain
+literal text or replacement fields delimited by braces {}. Each replacement field contains either
+the numeric index of a positional argument, or the name of a keyword argument. It returns a copy of 
+the string where each replacement field is replaced with the string value of the corresponding
+argument.
+
+Syntax - str.format(arg)
+
+Ex -  
+   str = "My age is {}"
+   print(str.format(62))    -------> My age is 62
+   
+
+
+-------- Conversion Type --------------------- Meaning -------------------
+
+               d                 -   Signed integer decimal
+               o                 -   Signed octal value
+               x                 -   Signed hexadecimal (lowercase)
+               X                 -   Signed hexadecimal (uppercase)
+               b                 -   Binary Format
+               e                 -   Floating point exponential format (lowercase)
+               E                 -   Floating point exponential format (uppercase)
+               f                 -   Floating point decimal format (Default: 6)
+               F                 -   Same as 'f'. Except displays 'inf' as 'INF' and 'nan' as 'NAN'
+               c                 -   Character. Convert the integer to the corresponding Unicode character before printing
+               g                 -   General format. Rounds number to p significant digits. (Default precision: 6)
+               G                 -   Same as 'g'. Except switches to 'E' if the number is large
+               n                 -   Same as 'd'. Except it uses current locale setting for number separator
+               s                 -   String ( convert any Python object using str() )
+               %                 -   Percentage. Multiplies the number by 100 and displays in fixed ('f') format, followed by a percent sign.             
+
+
+
+------- Alignment Type --------------------- Meaning ----------------------
+       
+               <             -       Forces the field to be left-aligned within the available space (This is default for most objects)
+               ^             -       Forces the field to be centered within the available space.
+               >             -       Forces the field to be right-aligned within available space (This is default for Numbers)
+               =             -       Forces the padding to be placed after the sign (if any) but before the digits. This is used for printing
+
+
+
+----------- Sign ---------------------------- Meaning -------------------------
+            
+            +                -       Indicates that a sign should be used for both positive as well as negative Numbers.
+            -                -       Indicates that a sign should be used only for negative numbers (this is default behavior).
+                             -       (a space) Indicates that a leading space should be used on positive numbers, and a minus sign on negative numbers
+
+
+
+
+
+NOTE -
+      The '#' options causes the "alternative form" to be used for the conversion. The alternate form is 
+      defined differently for different types. This options is only valid for integer, float, complex and
+      Decimal types. For integer, when binary, octal, or hexadecimal output is used, this option adds the 
+      prefix respective 'Ob', 'Oo', or 'Ox' to the output value. 
+
+NOTE -
+      The "," option signals the use of a comma for a thousands separator. For a locale aware separator,
+      use the "n" integer presentation type instead
+
+NOTE - 
+      The "_" option signals the use of an underscore for a thousands separator for floating point
+      presentation types and for integer presentation type "d".
+
+
+
+
+
+
+
+
+      

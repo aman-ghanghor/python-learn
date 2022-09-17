@@ -1,0 +1,5 @@
+def sum(num1, num2):         <--------- Formal arguments
+    result = num1 + num2
+    print(result)
+
+sum(5, 8)                    <-------- Actual arguments

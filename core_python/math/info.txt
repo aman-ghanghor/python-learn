@@ -1,0 +1,8 @@
+------------ MATH MODULE --------------
+
+It is a module that contains several functions to perform mathematical operation.
+
+If we want to use this module then we have to import it first.
+
+from math import *
+

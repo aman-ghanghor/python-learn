@@ -1,0 +1,38 @@
+------------------ OUTPUT STATEMENT ----------------------
+
+print() = print() function is used to print the specified message to the output screen/device.
+          The message can be a string, or any other object.
+
+Syntax - print(object, sep='character', end='character', file='sys.stdout', flush=False)
+
+
+sep = Separate the objects by given character. Character can be any string. Default is '' or can write none.
+
+end = It indicates ending character for the line. Default is '\n' or can write none.
+
+file = An object with a write method. Default is sys.stdout or can write none.
+
+flush = A Boolean, specifying if the output is flushed (True) or buffered (False). Default is False
+
+
+
+
+
+
+------------------ INPUT STATEMENTS -------------
+
+input() - This function is used to accept input from keyboard.
+          This function will stop the program flow until the user gives an input and end the input with the return key.
+          Whatever user gives as input, input function convert it into a string. If user enters an integer value still input() function convert it into a string.
+          So if you need an integer you have to use type conversion.
+
+
+
+
+
+
+
+
+
+
+

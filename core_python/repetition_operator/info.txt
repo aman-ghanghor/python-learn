@@ -1,0 +1,6 @@
+Repetition operator is used to repeat the string for several times, It is denoted by *
+
+Ex - 
+
+str1 = "Hello"
+str1*5

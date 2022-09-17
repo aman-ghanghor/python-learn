@@ -1,0 +1,73 @@
+--------------- f-String / Formatted String Literal ----------------
+
+A formatted string literal of f-string is a string literal that is prefixed with (f or F).
+These strings may contain replacement field, which are expressions delimited by curly braces {}.
+While other string literal always have a constant value, formatted strings are really expressions
+evaluated at run time.
+
+Syntax = 
+
+       f"{index/key/name:[fill][align][sign][#][0][width][,][.precision]type}"
+                         |__________________________________________________|
+                                                 |
+                                                 |
+                                                 |
+                                        Format Specification
+                                                
+
+Ex -
+     
+    a = 10
+    
+    print(f"{a}")
+
+    print(f"My age is {a}")
+     
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

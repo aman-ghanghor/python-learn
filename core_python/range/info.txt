@@ -1,0 +1,26 @@
+--------------------  range()  ---------------------
+
+range() = function is used to generate a sequence of integers starting from 0 by default, and increments by 1 by default,
+          till j-1.
+
+Syntaxt = 
+          range(start, stop, stepsize)
+
+
+start = Starting position. If we do not mention start by default it's 0
+
+stop = Ending position. The range of integers stops one element prior to stop. If stop is j then will stop at exact j-1
+
+stepsize = Increment by stepsize. If we do not mention start by default it's 1.
+
+
+
+
+
+
+
+
+
+
+
+
