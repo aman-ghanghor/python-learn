@@ -66,7 +66,14 @@
 # func(name="Rahul", age=23, city="Indore")
 
 
+# def func1(name, age, **args):
+#     print(name, age, args)
+    
+# def func2(name, age, *args):
+#     print(name, age, args)
 
+# func1(name="aman", age=24, city="delhi", country="IN")
+# func2("aman", 24, "delhi", "IN")
 
 
 # Default Parameter Value
