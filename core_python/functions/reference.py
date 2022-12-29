@@ -2,7 +2,7 @@
 #  known as "Pass by Value" and "Pass by Reference".
 
 #  In Python, neither of these two concepts is applicable rather the values are sent to functions by means 
-#  of "object reference" (pass by object reference).
+#  of "object reference" (pass by object reference). we can also call it [pass by Assignment]
 
 #  When we pass value like number, strings, tuples, or lists to function, the references of these objects 
 #  are passed to function.
