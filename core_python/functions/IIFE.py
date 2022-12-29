@@ -1,3 +1,4 @@
+# Immediately Invoked Function Expression
 
 (lambda x: print(x*x))(5)
 
